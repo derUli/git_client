@@ -1,0 +1,12 @@
+{
+	"id": "git_client",
+	"version": "1.0",
+	"description": "Git Client",
+	"categories": [
+		"git",
+		"cvs",
+		"version control",
+		"development"
+	],
+	"compatible_from": "2019.2"
+}

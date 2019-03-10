@@ -1,0 +1,6 @@
+dist/*
+work/*
+.settings
+.project
+.buildpath
+vendor
