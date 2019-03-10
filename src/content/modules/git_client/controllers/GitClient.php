@@ -1,8 +1,5 @@
 <?php
 
-// FIXME: Fehlerbehandlung (Kein Repo vorhanden=)
-// FIXME: Sicherheit!
-// TODO: Echtzeit Aktualisierung - Per Ajax auf Änderungen am Status pollen
 class GitClient extends Controller {
 
     const MODULE_NAME = "git_client";
