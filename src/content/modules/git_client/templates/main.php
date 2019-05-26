@@ -1,4 +1,7 @@
-<?php if (ViewBag::get("has_changes")) {
+<?php 
+use UliCMS\Constants\RequestMethod;
+
+if (ViewBag::get("has_changes")) {
     ?>
     <div class="alert alert-warning" id="alert-changes" data-has-changes="true"
          data-url="<?php echo ModuleHelper::buildMethodCallUrl(GitClient::class, "checkForChanges"); ?>">
